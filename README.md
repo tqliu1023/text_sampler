@@ -1,9 +1,9 @@
 # Text Sampler Server-Client
 
-# This project implements a server-client pair for sampling lines from large text files.
-# The server provides two methods:
-# - load(): Appends lines from a text file to a global cache. Returns the number of lines read.
-# - sample(): Returns N random lines from the cache, removing them so they cannot be sampled again.
+This project implements a server-client pair for sampling lines from large text files.
+The server provides two methods:
+- load(): Appends lines from a text file to a global cache. Returns the number of lines read.
+- sample(): Returns N random lines from the cache, removing them so they cannot be sampled again.
 
 ## Features
 # Key features include thread-safe server, concurrent clients, local communication, and robust edge case handling.
